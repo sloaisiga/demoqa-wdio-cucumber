@@ -1,0 +1,22 @@
+{
+  "name": "scarleth-demoqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "specific-test": "cucumber-js $SPECIFIC_FEATURE"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "chai": "^4.3.6",
+    "fs": "*",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^14.3.2"
+  }
+}

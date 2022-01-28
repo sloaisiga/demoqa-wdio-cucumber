@@ -1,0 +1,5 @@
+node_modules
+.envrc
+screenshot/*
+.DS_Store
+package-lock.json
